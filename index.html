@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Agendamento</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="../ICON_ROSE_EP_cortado.png">
+</head>
+<body>
+    <header>
+      <h1>Formulario de Agendamento</h1>
+    </header>
+    <main>
+      <div id="agendamento">
+        <p class="txtagenda txtnome">Nome:</p> <input type="text" name="nome" id="nome" placeholder="Digite seu nome e sobre nome" />
+        <p class="txtagenda">Telefone:</p> <input type="tel" name="fone" id="fone" placeholder="(00) 9 0000-0000 WhatsApp" />
+        <p class="txtagenda">Data do evento:</p> <input type="date" name="data" id="data" />
+        <p class="txtagenda">Quantos dias pretende reservar:</p>
+            <input type="radio" name="raddias" id="um" checked />
+            <label for="um" className="txtagenda">1 dia ou</label>
+            <input type="radio" name="raddias" id="mais" />
+            <label for="mais" className="txtagenda">2 ou mais</label>
+        <p class="txtagenda">Horas de início:</p> <input type="time" name="horainicio" id="horainicio" />
+        <p class="txtagenda">Horas de término:</p> <input type="time" name="horafinal" id="horafinal" />
+        <p class="txtagenda">Carater do Evento:</p> <input type="text" name="evento" id="evento" placeholder="congresso/ceia/casamento..." />
+        <p class="txtagenda">Local:</p> <input type="text" name="local" id="local" placeholder="IEADPE local/nome do espaço" />
+        <p class="txtagenda">Endereço:</p> <input type="text" name="endereco" id="endereco" placeholder="rua,n - bairro/cidade/estado" />
+        <p class="txtagenda">Observações:</p> <textarea name="obs" id="obs" placeholder="Pode detalhar o que deseja para que possamos ser mais preciso ao passar o orçamento ou valor de ajudar para o ministério"></textarea>        
+        <input type="submit" class="btenviar" value="Gerar PDF" />
+      </div>
+    </main>
+    <footer>
+      <p>todos os direitos reservados</p>
+      <p>&copy;Cantora Evelyn Pio</p>
+    </footer>
+</body>
+</html>

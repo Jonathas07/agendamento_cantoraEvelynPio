@@ -1,0 +1,111 @@
+*{
+  margin: 0; padding: 0; text-decoration: none;
+}
+
+Body{
+  background-image: linear-gradient(45deg, rgb(83, 83, 83), rgb(192, 79, 79),rgb(83, 83, 83), rgb(192, 79, 79) );
+  width: 100%;
+}
+
+header{
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+h1{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#agendamento{
+  background-color: rgba(0, 0, 0, 0.295);
+  background-position: 70% 40%;
+  width: 100%;
+  display: block;
+}
+
+.txtagenda{
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1%;
+}
+
+.txtnome{
+  padding-top: 2%;
+}
+
+#nome, #fone, #evento, #local, #endereco{
+  margin: none;
+  margin-left: 1%;
+  margin-bottom: 2.5%;
+  width: 90%;
+  height: max-content;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 1% 2% 1% 2%;
+  background: transparent;
+}
+
+#horainicio, #horafinal{
+  width: 50%;
+  font-size: 1rem;
+  padding: 1% 2% 1% 2%;
+  border-radius: 25px;
+  background:transparent;
+  margin-bottom: 2.5%;
+  margin-left: 1%;
+}
+
+#data{
+  width: 50%;
+  margin-bottom: 2.5%;
+  margin-left: 1%;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 1% 2% 1% 2%;
+  background: transparent;
+}
+
+#um, #mais{
+  width: 5%;
+  height: 20px;
+  margin-bottom: 3%;
+}
+
+#mais{
+  margin-left: 4%;
+}
+
+textarea{
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 1% 2% 1% 2%;
+  background: transparent;
+  margin-left: 1%;
+}
+
+.btenviar{
+  width: 95%;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.btenviar:hover{
+  background-color: red;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.452) 2px 5px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
