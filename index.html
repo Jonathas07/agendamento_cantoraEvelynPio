@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-cell.css">
     <link rel="icon" type="image/x-icon" href="../ICON_ROSE_EP_cortado.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js" defer></script>
   </head>
   <body>
       <header>
@@ -29,13 +33,12 @@
           <p class="txtagenda">Local:</p> <input type="text" name="local" id="local" placeholder="IEADPE local/nome do espaço" />
           <p class="txtagenda">Endereço:</p> <input type="text" name="endereco" id="endereco" placeholder="rua,n - bairro/cidade/estado" />
           <p class="txtagenda">Observações:</p> <textarea name="obs" id="obs" placeholder="Pode detalhar o que deseja para que possamos ser mais preciso ao passar o orçamento ou valor de ajudar para o ministério"></textarea>        
-          <input type="submit" class="btenviar" value="Gerar PDF" />
+          <input type="submit" value="Gerar PDF" class="btenviar" onclick="Gerarpdf()" />
         </div>
       </main>
       <footer>
         <p>todos os direitos reservados</p>
         <p>&copy;Cantora Evelyn Pio</p>
       </footer>
-      
   </body>
 </html>
