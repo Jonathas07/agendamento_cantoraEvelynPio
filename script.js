@@ -12,7 +12,7 @@ function Gerarpdf(){
     margin: [10],
     filename: `arquivo.pdf`,
     html2canvas: { scale: 2 },
-    jsPDF: { unit: matchMedia, format: "a4", orientation: "portrait" },
+    jsPDF: { unit: 'mm', format: "a4", orientation: "portrait" },
   }
  
   // Gerando o PDF
