@@ -4,9 +4,7 @@ function Gerarpdf(){
   
   
   // conteudo do PDF 
-  let fone = document.querySelector('#fone').value
   let nome = document.querySelector('#nome').value
-  let data = document.querySelector('#data').value
   let conteudo = document.querySelector('#agendamento')
 
   // configuração do arquivo
