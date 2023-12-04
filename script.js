@@ -16,5 +16,5 @@ function Gerarpdf(){
   }
  
   // Gerando o PDF
-  html2pdf().set(config).from(conteudo).save()
+  let doc = html2pdf().set(config).from(conteudo).save()
 }
